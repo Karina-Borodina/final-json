@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#breedInput {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-btn, .random-btn {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 10px;
+  transition: transform 0.1s ease-in-out;
+}
+
+.search-btn i, .random-btn i {
+  font-size: 16px;
+}
+
+.search-btn:active, .random-btn:active {
+  transform: scale(1.1);
+}
+
+#dogImage {
+  display: block;
+  margin: 20px auto;
+}
+
+.description {
+  margin-top: 20px;
+}
+
